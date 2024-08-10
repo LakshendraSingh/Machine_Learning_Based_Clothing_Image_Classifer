@@ -27,16 +27,16 @@ pip install tensorflow matplotlib
 
  The dataset is loaded from TensorFlow's dataset library and consists of the following categories:
 
-0 T-shirt/top
-1 Trouser
-2 Pullover
-3 Dress
-4 Coat
-5 Sandal
-6 Shirt
-7 Sneaker
-8 Bag
-9 Ankle boot
+- 0 T-shirt/top
+- 1 Trouser
+- 2 Pullover
+- 3 Dress
+- 4 Coat
+- 5 Sandal
+- 6 Shirt
+- 7 Sneaker
+- 8 Bag
+- 9 Ankle boot
 
 # Code Overview
 1. Data Loading and Visualization: Loads the Fashion MNIST dataset, visualizes some training and validation images.
