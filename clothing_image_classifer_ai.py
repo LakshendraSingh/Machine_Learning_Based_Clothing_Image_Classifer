@@ -38,6 +38,11 @@ model = tf.keras.Sequential
 (
     [
         tf.keras.layers.Flatten(input_shape = (28,28)),
+        tf.keras.layers.Dense(64, activation = 'relu')
+        tf.keras.layers.Dense(128, activation = 'relu'),
+        tf.keras.layers.Dense(256, activation = 'relu'),
+        tf.keras.layers.Dense(128, activation = 'relu'),
+        tf.keras.layers.Dense(64, activation = 'relu'),
         tf.keras.layers.Dense(number_of_classes)
     ]
 )
